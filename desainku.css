@@ -1,0 +1,23 @@
+header{
+		background-image:url("images(1).jpg");
+		height:150px;
+		color:white;
+	}
+	nav{
+		background-color:pink;
+		min-height:500px;
+		width:150px;
+		float:left;
+		padding:5px;
+	}
+	section{
+		padding:5px;
+		width:850px;
+		float:left;
+	}
+	footer{
+		background-color:black;
+		color:white;
+		clear:both;
+		text-align:center;
+	}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css">
+<style>
+	header{
+		background-image: url("gambar/interior.jpg");
+		height:150px;
+		color:white;
+	}
+	nav{
+		background-image: url("gambar/background.jpg");
+		min-height:500px;
+		width:150px;
+		float:left;
+		padding:5px;
+	}
+	section{
+		padding:5px;
+		width:850px;
+		float:left;
+	}
+	footer{
+		background-color:black;
+		color:white;
+		clear:both;
+		text-align:center;
+	}
+</style>
+</head>
+<body>
+	<header> <marquee><h1><font color = "white"> AUTO RENT KUDUS </font></h1></marquee>
+				
+	</header>
+	<nav>
+		<table>
+		<tr><td><a href="home.html"><font color="white">Home</font></a></td></tr>
+	<tr><td><a href="layanan.html"><font color="white">Layanan</font></a></td></tr>
+	<tr><td><a href="harga.html"><font color="white">Harga</font></a></td></tr>
+	<tr><td><a href="syarat.html"><font color="white">Persyaratan</font></a></td></tr>
+	<tr><td><a href="resv.html"><font color="white">Reservasi</font></a></td></tr>
+		</table>
+	</nav>
+	<section>
+		<h2>Formulir Reservasi</h2>
+		<table>
+		<form name="fOrder" method="post" action="proses.php"">
+		<tr><td></td>Pilih Tipe<td><input type-text name=Tipe size=60></td></tr>
+		<tr><td>Pilih Tujuan</td><td>
+						<select name="jenis">
+							<option>-----Pilih Jenis Mobil-----</option>
+							<option>Innova Venturer</option>
+							<option>Navara</option>
+							<option>Nissan GT-R</option>
+							<option>Civic Turbo</option>
+						</select>
+							</td></tr>
+		<tr><td>Pilih Paket</td><td>
+						<select name="jenis">
+							<option>-----Pilih Paket Sewa-----</option>
+							<option>Dalam Kota 12 Jam</option>
+							<option>Dalam Kota 24 Jam</option>
+							<option>3 Hari dalam Kota</option>
+							<option>3 Hari Luar Kota</option>
+							<option>1 Minggu dalam/luar kota</option>
+						</select>
+							</td></tr>
+							<tr><td>Tanggal Mulai</td><td><input type="text" name="tmulai" /></td></tr>
+							<tr><td>Tanggal Selesai</td><td><input type="text" name="tselesai" /></td></tr>
+							<tr><td>Total Pembayaran</td><td><input type="text" name="ttotal" /></td></tr>
+							<tr><td><input type=reset></td><td><input type="submit" value="kirim" /></td
+		</form>
+		</table>
+		
+	</section>
+	<footer>
+		Copyright By RicoDuspha
+	</footer>
+</body>
+</html>
